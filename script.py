@@ -60,7 +60,7 @@ def main():
     num_input = input("Enter the number to convert > ")
     
     if choice == "1":
-        # Conversion Base 10 → Base 2
+        # Convert Base 10 → Base 2
         try:
             decimal_num = float(num_input)
             result = decimal_to_binary(decimal_num)
@@ -69,7 +69,7 @@ def main():
             print("Error: Please enter a valid decimal number.")
     
     elif choice == "2":
-        # Conversion Base 2 → Base 10
+        # Convert Base 2 → Base 10
         if is_binary_number(num_input):
             result = binary_to_decimal(num_input)
             print(f"\n{num_input}₂ = {result}₁₀")
@@ -77,14 +77,14 @@ def main():
             print("Error: Please enter a valid binary number (contains only 0 and 1).")
     
     elif choice == "3":
-        # Détection automatique
+        # Auto detection
         if is_binary_number(num_input):
-            # C'est un nombre binaire, conversion vers décimal
+            # It's a binary number, convert to decimal
             result = binary_to_decimal(num_input)
             print(f"\nDetected: Binary number")
             print(f"{num_input}₂ = {result}₁₀")
         else:
-            # C'est probablement un nombre décimal, conversion vers binaire
+            # It's probably a decimal number, convert to binary
             try:
                 decimal_num = float(num_input)
                 result = decimal_to_binary(decimal_num)
