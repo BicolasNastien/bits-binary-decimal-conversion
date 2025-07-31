@@ -1,6 +1,6 @@
 # Binary and Decimal Conversion (Integer and Fractional Numbers)
 
-## 🔢 1. Integer Part Conversion
+## 1. Integer Part Conversion
 
 ### 1.1 Decimal to Binary (Integer Part)
 
@@ -38,7 +38,7 @@ To convert a binary integer to decimal:
 
 ---
 
-## 🔄 2. Fractional Part Conversion
+## 2. Fractional Part Conversion
 
 ### 2.1 Decimal to Binary (Fraction)
 
@@ -74,7 +74,7 @@ To convert a binary fraction (e.g., 0.101) to decimal:
 
 ---
 
-## 🎯 3. Mixed Number Conversion
+## 3. Mixed Number Conversion
 
 To convert a decimal number with both integer and fractional parts (e.g., 13.625):
 
@@ -90,7 +90,7 @@ To convert a decimal number with both integer and fractional parts (e.g., 13.625
 
 ---
 
-## 📝 Summary
+## Summary
 
 | Conversion Type | Method | Example |
 |----------------|--------|---------|
@@ -101,5 +101,5 @@ To convert a decimal number with both integer and fractional parts (e.g., 13.625
 
 ---
 
-*💡 **Tip**: Always verify your conversions by converting back to the original number system!*
+**Tip**: Always verify your conversions by converting back to the original number system!*
 
